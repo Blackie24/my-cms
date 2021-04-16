@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points",
+  "info": {
+    "name": "Point",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Icon1": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon2": {
+      "type": "string"
+    }
+  }
+}

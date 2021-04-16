@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rares",
+  "info": {
+    "name": "Rare",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "icon1": {
+      "type": "string"
+    },
+    "icon2": {
+      "type": "string"
+    }
+  }
+}
