@@ -15,7 +15,7 @@ module.exports = ({ env }) => ({
         srv: env.bool("DATABASE_SRV", true),
         port: env.int("DATABASE_PORT", 4019),
         database: env("DATABASE_NAME", "server495677_masterbee"),
-        username: env("DATABASE_USERNAME", "server495677_masterbee"),
+        username: env("DATABASE_USERNAME", "Admin"),
         password: env("DATABASE_PASSWORD", "Kacper275"),
       },
       options: {
